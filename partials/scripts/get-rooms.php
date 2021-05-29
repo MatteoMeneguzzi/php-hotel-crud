@@ -6,7 +6,7 @@ require_once __DIR__ . '/database.php';
 
 // Ottieni camere
 
-$sql = "SELECT `id`, `room_number`, `floor` 
+$sql = "SELECT `id`, `room_number`, `floor`, `beds` 
         FROM `stanze`";
 
 $result = $conn->query($sql);
